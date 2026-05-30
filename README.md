@@ -1,28 +1,55 @@
 SPEC
 
-I want to make a long-term custom AI system called SPEC, kind of like a simple version of JARVIS. It’s something I’ll build over time in Python and slowly improve as I learn more.
+I want to make a long-term custom AI system called SPEC, kind of like a simple version of JARVIS. It’s a personal project I’ll be building over time in Python, and the goal is to slowly turn it into a smart assistant system that I fully understand and control myself.
 
-At the start, it will just be a basic assistant that can take input, store information, and remember things using a simple memory system. I’ll probably use JSON for saving data at first and keep everything local.
+This is not something I expect to build quickly. Instead, it will grow in stages as I learn more about programming, system design, and automation.
 
-What it will start with
-A simple command system (typing things into it and it responds)
-A memory system so it can remember information I give it
-Basic structure so I can add more features later without rewriting everything
-Future ideas (not done yet)
+What SPEC is right now
 
-As I improve it, I want to add more advanced stuff like:
+At the beginning, SPEC is just a basic Python program that runs locally. It doesn’t use any advanced AI models yet. Instead, it focuses on the core foundations needed for a future assistant system.
 
-Using the Gemini API for better conversations
-Connecting it to IoT devices like ESPHome and Raspberry Pi sensors
-Home automation (lights, sensors, etc.)
-A web interface so I can control it from anywhere
-Making it work across different devices in my home
-Big goal
+Right now the idea is to build:
 
-The main idea is to slowly turn it into a personal assistant system that can help control my room/home and also act like a smart assistant I built myself.
+A simple command-line interface where I can type messages
+A memory system that can store and retrieve information
+A structured way of saving data using files (like JSON)
+A basic response system that can react to simple inputs
 
-It’s mostly a learning project, so I’ll be building it step by step while improving my Python skills and learning how bigger systems work.
+The goal of this stage is to build the “brain structure” before adding intelligence.
 
-Notes
+How it will work (basic idea)
 
-I know it’s a big and ambitious project, so I’m not trying to build everything at once. I’ll just keep adding features over time as I learn more.
+SPEC will eventually work like this:
+
+User inputs a command or message
+The system checks if it recognises it
+It either responds using stored memory or runs a function
+It saves anything important for later use
+
+Even though it starts simple, the structure is meant to support future upgrades without needing to rewrite everything.
+
+Planned future features
+
+As the project develops, I want to expand SPEC into a much more advanced system. Some ideas include:
+
+Integration with the Gemini API for more advanced conversations
+A more advanced memory system that can store different types of data
+Control of smart home devices using ESPHome
+Raspberry Pi sensors for things like motion, temperature, or presence detection
+Automation features (for example, triggering actions based on sensor input)
+A web interface so I can access and control SPEC remotely
+Possibly voice control in the future
+Long-term goal
+
+The long-term goal of SPEC is to create a personal assistant system that connects my software, hardware, and smart home devices into one system.
+
+It’s also a learning project, so the main focus is improving my skills in:
+
+Python programming
+Building structured systems
+Working with APIs
+Understanding automation and IoT
+Eventually exploring AI systems
+Important note
+
+This project is intentionally built step by step. I’m not trying to make everything at once. Instead, I’m focusing on building small working features and improving the system over time as I learn.
