@@ -1,4 +1,5 @@
-#SPEC
+##SPEC
+
 I want to make a long-term custom AI system similar to Jarvis called SPEC.
 It will include Gemini's API key for more advanced convasation.
 Custom Memory and connection to fucture IoT devices ( ESP Home, Raspberry Pi sensors ) 
